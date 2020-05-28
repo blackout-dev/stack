@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Setup test fixtures
-        run: touch postgres.env && touch rabbitmq.env && touch bot.env
+        run: touch postgres.env rabbitmq.env bot.env
       - name: Validate config
         run: docker-compose config -q
 
