@@ -26,7 +26,7 @@ services:
     ports:
       - '5432:5432'
   rabbitmq:
-    image: rabbitmq:3.8.3-management-alpine
+    image: rabbitmq:3.8.4-management-alpine
     restart: unless-stopped
     networks:
       - backend
