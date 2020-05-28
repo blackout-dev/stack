@@ -21,6 +21,8 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+      - name: Setup test fixtures
+        run: touch postgres.env && touch rabbitmq.env && touch bot.env
       - name: Validate config
         run: docker-compose config -q
 
