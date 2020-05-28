@@ -98,7 +98,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.5":
+"prettier@npm:2.0.5":
   version: 2.0.5
   resolution: "prettier@npm:2.0.5"
   bin:
@@ -107,7 +107,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^3.0.2":
+"rimraf@npm:3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
@@ -123,13 +123,13 @@ __metadata:
   resolution: "stack@workspace:."
   dependencies:
     "@types/node": 12.12.42
-    prettier: ^2.0.5
-    rimraf: ^3.0.2
-    typescript: ^3.9.3
+    prettier: 2.0.5
+    rimraf: 3.0.2
+    typescript: 3.9.3
   languageName: unknown
   linkType: soft
 
-typescript@^3.9.3:
+typescript@3.9.3:
   version: 3.9.3
   resolution: "typescript@npm:3.9.3"
   bin:
@@ -139,7 +139,7 @@ typescript@^3.9.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.9.3#builtin<compat/typescript>":
+"typescript@patch:typescript@3.9.3#builtin<compat/typescript>":
   version: 3.9.3
   resolution: "typescript@patch:typescript@npm%3A3.9.3#builtin<compat/typescript>::version=3.9.3&hash=8cac75"
   bin:
