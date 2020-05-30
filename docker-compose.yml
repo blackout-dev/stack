@@ -11,6 +11,8 @@ services:
     image: docker.pkg.github.com/blackout-dev/bot/bot:latest
     restart: unless-stopped
     env_file: bot.env
+    depends_on:
+      - hub
     networks:
       - backend
     links:
