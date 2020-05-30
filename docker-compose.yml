@@ -26,6 +26,16 @@ services:
     links:
       - postgres
       - rabbitmq
+  meilisearch:
+    image: getmeili/meilisearch
+    restart: unless-stopped
+    env_file: melisearch.env
+    volumes:
+      - blackout-meilisearch-storage:/data.ms
+    networks:
+      - backend
+    ports:
+      - '7700:7700'
   postgres:
     image: postgres:12.3-alpine
     restart: unless-stopped
@@ -49,4 +59,6 @@ services:
       - '5672:5672'
 volumes:
   blackout-postgres-storage:
+    external: true
+  blackout-meilisearch-storage:
     external: true
