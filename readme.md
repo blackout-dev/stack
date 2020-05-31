@@ -1,6 +1,6 @@
-# BLACKOUT stack
+# BLACKOUTS stack
 
-Run the BLACKOUT stack with [Docker Compose](https://docs.docker.com/compose/)
+Run the BLACKOUTS stack with [Docker Compose](https://docs.docker.com/compose/)
 
 This stores example environment files and a Docker Compose configuration.
 
