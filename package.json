@@ -1,6 +1,6 @@
 {
 	"devDependencies": {
-		"@types/node": "12.12.42",
+		"@types/node": "12.12.43",
 		"prettier": "2.0.5",
 		"rimraf": "3.0.2",
 		"typescript": "3.9.3"
