@@ -4,10 +4,10 @@
 __metadata:
   version: 4
 
-"@types/node@npm:12.12.44":
-  version: 12.12.44
-  resolution: "@types/node@npm:12.12.44"
-  checksum: 3/a950f71a368a6e5ff807d6c3a05b1957f6288e0651da3d5be06aebec59facfb143db79206d8e966c5a57ae983b8470951df9400ffe4b94d116117fe6f960cfdc
+"@types/node@npm:12.12.47":
+  version: 12.12.47
+  resolution: "@types/node@npm:12.12.47"
+  checksum: 3/925edf3fec205a9439e7e72d54e54cc4825714d4f5623ac2fad96c5ea015956125b4b1cfc6ca782ad6929c7d7cf89960dae858d29ad082ee305833b243cc1cc7
   languageName: node
   linkType: hard
 
@@ -122,7 +122,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "stack@workspace:."
   dependencies:
-    "@types/node": 12.12.44
+    "@types/node": 12.12.47
     prettier: 2.0.5
     rimraf: 3.0.2
     typescript: 3.9.5
