@@ -29,7 +29,7 @@ services:
   meilisearch:
     image: getmeili/meilisearch
     restart: unless-stopped
-    env_file: melisearch.env
+    env_file: meilisearch.env
     volumes:
       - blackouts-meilisearch-storage:/data.ms
     networks:
