@@ -12,7 +12,7 @@ jobs:
       - name: Checkout git repository
         uses: actions/checkout@v2
       - name: Setup test fixtures
-        run: touch postgres.env rabbitmq.env bot.env hub.env melisearch.env
+        run: touch postgres.env rabbitmq.env bot.env hub.env meilisearch.env
       - name: Validate config
         run: docker-compose config -q
 
