@@ -17,6 +17,7 @@ services:
       - backend
     links:
       - rabbitmq
+      - meilisearch
   hub:
     image: docker.pkg.github.com/blackouts-dev/hub/hub:latest
     restart: unless-stopped
