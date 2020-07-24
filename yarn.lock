@@ -3,7 +3,7 @@
 
 __metadata:
   version: 4
-  cacheKey: 4
+  cacheKey: 5
 
 "@types/node@npm:12.12.52":
   version: 12.12.52
@@ -142,11 +142,11 @@ typescript@3.9.7:
 
 "typescript@patch:typescript@3.9.7#builtin<compat/typescript>":
   version: 3.9.7
-  resolution: "typescript@patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=64df9d"
+  resolution: "typescript@patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=5b02a2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 251a760b5a4d44481d04edaa35a6526841a9878cdfc72a0aee52b18187bd7304e91d467827f3f71b8046faf05d0f35ce1357cd3298b2b172410ccf731660a85f
+  checksum: f0d3d9c987860c7c458229ab6dd7e3d322405db36b70abccba610b5efd9f9451e4e67a3fc7983c0d3741033c1f1a8d7aa859a1510caa8f20fad762fc39648bfa
   languageName: node
   linkType: hard
 
