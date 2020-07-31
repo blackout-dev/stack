@@ -5,10 +5,10 @@ __metadata:
   version: 4
   cacheKey: 5
 
-"@types/node@npm:12.12.52":
-  version: 12.12.52
-  resolution: "@types/node@npm:12.12.52"
-  checksum: a948b659034db5f07432e80b86d8d718891cdfeedc50b4ff4e087de5e82e2a8dce4e9fa4c0b66157f37309be90c97350494907e565f164350f89b659370f54d3
+"@types/node@npm:12.12.53":
+  version: 12.12.53
+  resolution: "@types/node@npm:12.12.53"
+  checksum: 8498d9c3cfd1ab60e867f0edfb1c4536efab8651faf3d4fa85e92ddd7c150ceed0a2c200d6eda20c1fbcbba993dbc575f3b5a39b15ea75149237aae27200b9d2
   languageName: node
   linkType: hard
 
@@ -123,7 +123,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "stack@workspace:."
   dependencies:
-    "@types/node": 12.12.52
+    "@types/node": 12.12.53
     prettier: 2.0.5
     rimraf: 3.0.2
     typescript: 3.9.7
